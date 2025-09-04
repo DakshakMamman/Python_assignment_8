@@ -16,8 +16,9 @@ Example Usage:
 class Calculator:
     print("My Calculator")
     print("==============")
+    print()
 
-    def _init_(self):
+    def __init__(self):
         print("My calculator")
 
     def add(self, x, y):
